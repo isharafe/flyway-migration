@@ -20,3 +20,12 @@ ex:
 - Separator: __ (two underscores) (configurable)
 - Description: Underscores or spaces separate the words
 - Suffix: .sql (configurable)
+
+
+## Note
+ - check the db version and the flyway version
+ - https://stackoverflow.com/questions/70438180/what-is-the-last-version-of-flyway-community-edition-that-supported-mysql-5-7
+
+Flyway Community Edition 8.0.0-beta1 dropped support for databases older than 5 years, including MySQL 5.7.
+The minimum supported version of MySQL was increased from 5.7 to 8.0 in this commit, which was introduced in Flyway 8.0.0-beta1.
+Currently, the latest community edition version that supports MySQL 5.7 is Flyway 7.15.0.
