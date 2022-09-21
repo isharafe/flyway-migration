@@ -1,5 +1,5 @@
 # flyway-migration
-flyway migration to production db schema updates
+flyway migration for production db schema updates
 
 # Naming
 In order to be picked up by Flyway, SQL migrations must comply with the following naming pattern:
